@@ -92,8 +92,6 @@ int main(){
 	if (userInput.find("1") == string::npos) MC = false;
 	if (userInput.find("2") == string::npos) SA = false;
 	if (userInput.find("3") == string::npos) MM = false;
-
-	cout << MC << " " << SA << " " << MM << endl;
 	
 	cout << "\nThank you! We will be generating a quiz with ";
 	std::string tempout = "";
